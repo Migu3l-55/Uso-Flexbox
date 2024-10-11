@@ -1,0 +1,33 @@
+header {
+    background-color: white;
+    border: 1px solid black;
+    margin-bottom: 3px;
+    position: sticky;
+    top: 0;
+}
+
+header { text-align: center; }
+
+img {
+    display: flexbox; 
+    border: 1px solid black; 
+    width: 32.4%;
+}
+
+div { 
+    display: block;
+    width: 90%;
+    margin: auto; 
+}
+
+@media (max-width: 600px) {
+    div {
+        display: block;
+        width: 80%;
+        margin: auto;
+    }
+
+    img {
+        width: 100%;
+    }
+}
